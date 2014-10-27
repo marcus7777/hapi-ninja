@@ -40,12 +40,12 @@ To see any changes you can manually just shutdown and restart the node server. T
 
 To install run:
 ```
-$ npm install -g supervisor
+sudo npm install -g supervisor
 ```
 
 To use it run:
 ```
-$ supervisor -e html,js  server
+supervisor -e html,js  server
 ```
 
 Now all of your server html and js files are being watched and on change the node server gets restarted automatically.
@@ -55,7 +55,7 @@ Before going into production you will want to concatenate and minify your assets
 
 To install run:
 ```
-npm install -g gulp
+sudo npm install -g gulp
 ```
 
 Now you can run `gulp` from the command line and it will run the tasks in the `gulpfile.js`. The current tasks will minify and optimize your CSS, JS, and Images. If you want more tasks you can go to the Gulp Plugin page. [http://gratimax.github.io/search-gulp-plugins/](http://gratimax.github.io/search-gulp-plugins/)
