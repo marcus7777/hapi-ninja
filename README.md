@@ -26,14 +26,14 @@ Install Node.js by using the big install button on the [http://nodejs.org/](http
 After Node.js is installed, clone this repo, change `cd` to this directory, and run `npm install`
 
 ```bash
-$ git clone https://github.com/poeticninja/hapi-ninja.git
-$ cd hapi-ninja
-$ npm install
+git clone https://github.com/poeticninja/hapi-ninja.git
+cd hapi-ninja
+npm install
 ```
 
 Start the server by running the command:
 ```
-$ node server
+node server
 ```
 
 To see any changes you can manually just shutdown and restart the node server. This can be a pain so I use Supervisor to watch for file changes and restart the server [https://github.com/isaacs/node-supervisor](https://github.com/isaacs/node-supervisor).
